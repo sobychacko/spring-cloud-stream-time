@@ -1,0 +1,19 @@
+//tag::ref-doc[]
+= Time Source
+The time source will simply emit a String with the current time every so often.
+
+== Options
+
+The **$$time$$** $$source$$ has the following options:
+
+//tag::configuration-properties[]
+//end::configuration-properties[]
+
+
+//end::ref-doc[]
+== Build
+
+```
+$ mvn clean package
+```
+
